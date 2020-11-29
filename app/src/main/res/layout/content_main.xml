@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+    <TextView
+        android:id="@+id/txtdatos"
+        android:layout_width="305dp"
+        android:layout_height="422dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="107dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbnconectar" />
+
+    <Button
+        android:id="@+id/btnlistado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="22dp"
+        android:text="Listado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdatos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
